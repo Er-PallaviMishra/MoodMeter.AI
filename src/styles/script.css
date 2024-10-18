@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: #F7F7F7;
+  /* background-image: url("/genai_mongodb_query_generator/templates/genai_frontend/public/background.jpg");
+ background-color: #cccccc; */
+}
+
+.app-container {
+  background: #F7F7F7;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.app_logo {
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+}
+
+.app_logo img {
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+}
+
+.sidebar {
+  background: white;
+  /* padding: 0px 20px 26px 20px; */
+  width: 24%;
+  height: 100%;
+  border: 1px solid rgb(233, 231, 231);
+}
+
+.content_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  flex-grow: 1;
+  overflow: hidden;
+  margin: 0 !important;
+  /* background-color: palegoldenrod; */
+}
+
+.result-section {
+  /* display: flex;
+  flex-direction: column; */
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+  /* background-color: khaki; */
+}
+
+.result-section::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.result-section::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+.ai_logo {
+  align-items: center;
+  margin-top: auto;
+  /* background-color: aquamarine; */
+}
+
+.ai_logo img {
+  margin-top: 50px;
+  margin-right: 5px;
+  height: 60px;
+  width: 60px;
+  align-items: center;
+}
+
+.main_text {
+  font-size: 20px;
+  padding: 10px;
+  align-items: center;
+}
+
+.user_prompt_section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px; 
+  margin-top: 30px;  
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+  /* background-color: white; */
+}
+
+.user_logo {
+  border-radius: 100%;
+}
+
+.user_logo img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.user_prompt {
+  background-color: #769FCD;
+  margin: 10px 10px 10px 19px;
+  height: auto;
+  width: 75%;
+  padding: 5px 5px 5px 20px;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.loading_text {
+  font-size: 18px;
+}
+
+.display_none {
+  display: none;
+}
+
+.chatbot_response_section {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-left: 23%;
+  margin-right: auto;
+  width: 60%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  /* background-color: firebrick; */
+}
+
+.chatbot_logo {
+  height: 50px;
+  width: 50px;
+  /* background: black; */
+}
+
+.chatbot_logo img {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chatbot_response {
+  height: auto;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 20px;
+  width: 75%;
+  /* padding: 5px 20px 5px 5px; */
+  text-align: left;
+}
+
+.chatbot_response p {
+  padding: 10px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 70px;
+  justify-content: center;
+}
+
+.inputbox {
+  margin-left: 70px;
+  width: 800px;
+  height: 60px;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid rgb(233, 231, 231);
+  font-size: 20px;
+}
+
+.submit_section {
+  background-color: rgb(233, 231, 231);
+  width: 55px;
+  height: 55px;
+  margin: 0px 0px 0px 3px;
+  border-radius: 100px;
+}
+
+.submit-button {
+  cursor: pointer;
+  display: block;
+  height: 30px;
+  width: 30px;
+  /* border: 1px solid rgb(233, 231, 231); */
+  margin: 13px 0px 0px 15px;
+  /* box-shadow: 0 9px #999; */
+}
+
+.submit_section:hover {
+  background-color: rgb(185, 182, 182)
+}
+
+.submit_section:active {
+  background-color: rgb(185, 182, 182);
+  box-shadow: 0 5px rgb(153, 140, 140);
+  transform: translateY(4px);
+}
+
+.chatbot_feedback {
+  width: 44%;
+  text-align: right;
+  margin: auto;
+  margin-top: auto;
+}
+
+.chatbot_feedback span {
+  cursor: pointer;
+  margin-right: 20px;
+  /* Add margin between thumbs-up and thumbs-down */
+}
+
+.feedback_message {
+  font-size: 12px;
+  color: gray;
+}
+ img{
+  width: 55px; 
+  height: 50px;
+  margin-left: 20px;
+}
+.AILogo{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 10%;
+margin-right: 5% ;
+}
